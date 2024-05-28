@@ -3,8 +3,9 @@ include "connect.php";
 session_start();
 if (!isset($_SESSION['auth_admin']['adminFullName'])) {
     // If not logged in, redirect to the login page
-    echo "<script> alert('Please Login First');
+    echo "<script> alert('Please Login blnk First');
         location.href='sign_in.php';</script>";
+
     exit();
 }
 
