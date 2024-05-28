@@ -1,0 +1,11 @@
+.dropdown-menu{
+    background-color: #343a40;
+}
+.dropdown-item{
+    color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-item:hover{
+    color:white;
+    background-color: #343a40;
+
+}

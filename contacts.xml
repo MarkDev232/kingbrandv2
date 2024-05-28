@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="contact.xsl"?>
+<contacts>
+    <!-- Contact data will be stored here -->
+
+
+    <contact id="1">
+        <name>asasdsa</name>
+        <email>asdsadas@yahoo.com</email>
+        <message>asdasdasd</message>
+        <date>2024-05-20 14:10:45</date>
+    </contact>
+    <contact id="2">
+        <name>Mark Sauquillo</name>
+        <email>Mark.sauquillo1@gmail.com</email>
+        <message>Your website looks good.</message>
+        <date>2024-05-20 18:20:19</date>
+    </contact>
+    <contact id="3">
+        <name>markasmdamsd</name>
+        <email>mark.sauquillo@yahoolo.com</email>
+        <message>how to make baby.</message>
+        <date>2024-05-21 06:16:18</date>
+    </contact>
+    <contact id="4">
+        <name>Kazuu</name>
+        <email>Kazuuu@yahoo.com</email>
+        <message>Pass me please</message>
+        <date>2024-05-24 11:07:47</date>
+    </contact>
+    <contact id="5">
+        <name>mark new </name>
+        <email>marknew@gmail.com</email>
+        <message>passed us please.</message>
+        <date>2024-05-24 13:50:44</date>
+    </contact>
+    <contact id="6">
+        <name>hjhgjhgj</name>
+        <email>mark.sauquweqwas@yahoo.com</email>
+        <message>Last na po plzzz.</message>
+        <date>2024-05-25 17:25:24</date>
+    </contact>
+    <contact id="7">
+        <name>asdasd</name>
+        <email>asdasd@yahoo.com</email>
+        <message>asdsadsadassdsds</message>
+        <date>2024-05-25 17:26:06</date>
+    </contact>
+<contact id="8"><name>ytrytryrt</name><email>fsdfdsy@yahoo.com</email><message>hjhgjhgjggvbvcbv</message><date>2024-05-25 17:27:06</date></contact></contacts>

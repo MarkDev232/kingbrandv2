@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Function to parse URL parameters
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        // Retrieve the value of a parameter named 'parameterName'
+        var i = getParameterByName('id');
+        var name = getParameterByName('name');
+        var team = getParameterByName('team');
+        var jersey = getParameterByName('jersey');
+        var year = getParameterByName('year');
+        var price = getParameterByName('price');
+
+        // Construct the new URL with parameters included
+        var newURL = 'single_product.php?id=' + (parseInt(i) + 1) + '&name=' + name + '&team=' + team + '&jersey=' + jersey + '&year=' + year + '&price=' + price;
+
+        // Get the current query string
+        var queryString = window.location.search;
+
+        // Append the current query string to the new URL
+        if (queryString) {
+            newURL += queryString;
+        }
+
+        // Redirect to the new URL
+        window.location.href = newURL;
+    </script>
+</body>
+</html>

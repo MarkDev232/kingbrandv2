@@ -1,0 +1,23 @@
+<products>
+    <product id="1">
+        <productName>Product 1</productName>
+        <productTeam>Team A</productTeam>
+        <productYear>2023</productYear>
+        <productJersey>Jersey 1</productJersey>
+        <productPrice>25.99</productPrice>
+        <productQuantity>10</productQuantity>
+        <image>product1.jpg</image>
+        <sold>false</sold>
+    </product>
+    <product id="2">
+        <productName>Product 2</productName>
+        <productTeam>Team B</productTeam>
+        <productYear>2022</productYear>
+        <productJersey>Jersey 2</productJersey>
+        <productPrice>29.99</productPrice>
+        <productQuantity>5</productQuantity>
+        <image>product2.jpg</image>
+        <sold>true</sold>
+    </product>
+    <!-- Add more product entries as needed -->
+</products>

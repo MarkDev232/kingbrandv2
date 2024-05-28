@@ -1,0 +1,54 @@
+ /* Adjustments for sidebar */
+ .sidebar {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    height: 100%;
+    width: 300px; /* Increased width */
+    padding-top: 3.5rem;
+    padding-bottom: 1rem; /* Added padding bottom */
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar .nav-link:hover {
+    color: white;
+}
+.sidebar .nav-link:active{
+    color: white;
+}
+.main-content {
+    margin-left: 250px; /* Adjusted margin-left to match sidebar width */
+    padding-top: 3.5rem; /* Added padding-top to match navbar height */
+    padding-left: 1rem; /* Added padding-left for content separation */
+}
+.sidebar .nav-link:active{
+    color: white;
+} 
+table button{
+    border: none;
+}
+table #btned1{
+    background-color: green;
+}
+#btned2{
+    background-color: skyblue;
+}
+#btnde3{
+    background-color:tomato;
+}
+table button a{
+    text-decoration: none;
+    color: white;
+    
+}
+tbody {
+    max-height: 300px; /* Set the maximum height for tbody */
+    overflow-y: auto; /* Enable vertical scrollbar if content overflows */
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<products>
+    <product>
+        <prod_id>1</prod_id>
+        <prod_name>Indiana_Pacers_Tyrese_Haliburton</prod_name>
+        <prod_team>Pacers</prod_team>
+        <prod_jersey>Away</prod_jersey>
+        <prod_year>2023</prod_year>
+        <prod_price>8300</prod_price>
+        <prod_qty>100</prod_qty>
+        <prod_sold>0</prod_sold>
+        <prod_image>./image_jersey/indy2.png</prod_image>
+    </product>
+    <product>
+        <prod_id>2</prod_id>
+        <prod_name>Indiana_Pacers_Tyrese_Haliburton</prod_name>
+        <prod_team>Pacers</prod_team>
+        <prod_jersey>Home</prod_jersey>
+        <prod_year>2023</prod_year>
+        <prod_price>9100</prod_price>
+        <prod_qty>100</prod_qty>
+        <prod_sold>0</prod_sold>
+        <prod_image>./image_jersey/indy3.png</prod_image>
+    </product>
+    <product>
+        <prod_id>3</prod_id>
+        <prod_name>Indiana_Pacers_Reggie_Miller</prod_name>
+        <prod_team>Pacers</prod_team>
+        <prod_jersey>Retro</prod_jersey>
+        <prod_year>2023</prod_year>
+        <prod_price>12000</prod_price>
+        <prod_qty>100</prod_qty>
+        <prod_sold>0</prod_sold>
+        <prod_image>./image_jersey/indy4.png</prod_image>
+    </product>
+    <product>
+        <prod_id>13</prod_id>
+        <prod_name>Indiana Pacers Tyrese Haliburton</prod_name>
+        <prod_team>Pacers</prod_team>
+        <prod_jersey>2023</prod_jersey>
+        <prod_year>Away</prod_year>
+        <prod_price>9000</prod_price>
+        <prod_qty>100</prod_qty>
+        <prod_sold>0</prod_sold>
+        <prod_image>image_jersey/indy.png</prod_image>
+    </product>
+</products>
