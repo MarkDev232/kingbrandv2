@@ -49,7 +49,17 @@ session_start();
                     <li class="nav-item">
                         <a class="nav-link active" href="product.php">Shop</a>
                     </li>
-
+                    <div class="mb-3">
+                        <label for="" class="form-label">Password</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            name=""
+                            id=""
+                            placeholder=""
+                        />
+                    </div>
+                    
                     <?php
                     if (isset($_SESSION['auth_user']['ID'])) {
                         $user_image = $_SESSION['auth_user']['ProfilePic'];
